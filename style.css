@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?toys') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Product Section */
+.product {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background: #cc5200;
+}
+
+/* Categories */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.category {
+    width: 22%;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.category:hover {
+    background: #ffcc00;
+}
+
+/* Testimonials */
+.testimonials {
+    background: #ffcc00;
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+/* Shopping Cart */
+.cart {
+    background: #e6e6e6;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Newsletter Section */
+.newsletter {
+    background: #f8f8f8;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.newsletter button:hover {
+    background: #cc5200;
+}
+
+/* Contact Section */
+.contact {
+    padding: 30px;
+    background: #f0f0f0;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
